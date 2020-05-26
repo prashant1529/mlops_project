@@ -213,7 +213,6 @@ model.predict(X_test)
 
 y_test_cat
 
-
 # In[50]:
 
 c=h.history['accuracy']
