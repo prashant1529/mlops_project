@@ -218,7 +218,6 @@ y_test_cat
 c=h.history['accuracy']
 h.history['accuracy'][7]
 
-
 # In[51]:
 
 with open('accuracy.txt', 'w') as f:
