@@ -234,4 +234,3 @@ with open('accuracy.txt', 'w') as f:
     f.write(str(c[4]))
 
 model.save('mlopsmodel.h1')
-curl -u admin:redhat 192.168.99.103:8080/job/mlops/build?token=redhat
