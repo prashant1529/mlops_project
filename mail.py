@@ -4,7 +4,7 @@
 # In[4]:
 
 
-f= open("/code/accuracy.txt" ,"r")
+f= open("/mlopscode/accuracy.txt" ,"r")
 a=f.read()
 import smtplib
 from email.mime.multipart import MIMEMultipart
