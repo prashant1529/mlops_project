@@ -223,4 +223,5 @@ h.history['accuracy'][7]
 with open('accuracy.txt', 'w') as f:
     f.write(str(c[7]))
 
+
 model.save('mlopsmodel.h1')
