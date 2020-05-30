@@ -9,9 +9,9 @@ a=f.read()
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-host_address = "awesomeprince530@gmail.com"
-host_pass = "eL0nMu$K15"
-guest_address = "awsomeprince1530@gmail.com"
+host_address = "prashantpal530@gmail.com"
+host_pass = "***********"
+guest_address = "prashantpal1530@gmail.com"
 subject = "Regarding the success of your model "
 content = "congratulations your model has been trained successfully with"+ str(a)+ "accuracy";
 message = MIMEMultipart()
