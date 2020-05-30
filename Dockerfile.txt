@@ -1,0 +1,18 @@
+FROM centos
+RUN yum update -y
+RUN yum install python36 -y
+RUN yum install epel-release -y
+RUN curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+RUN python3 get-pip.py
+RUN pip install setuptools
+RUN pip install pillow
+RUN pip install tensorflow==2.0.0
+RUN pip install seaborn
+RUN pip install pandas
+RUN pip install opencv-python
+RUN pip install numpy
+RUN pip install matplotlib
+RUN pip install scikit-learn
+RUN mkdir /mlopscode/
+RUN cd /mlopscode/
+WORKDIR /mlopscode/
